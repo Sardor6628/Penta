@@ -16,3 +16,4 @@ Interestingly, the product also includes the Magic Mirror and Streaming Camera. 
 
 Importantly, all devices including the Magic Mirror and Streaming Camera are connected to the Raspberry Pi, and they work interactively. We are using Python and JavaScript programming languages to make the product.
 
+![](mock-ups/Magic Mirror.png)
