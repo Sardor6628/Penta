@@ -15,3 +15,5 @@ At the same time, it can also be a real problem to hack for the intruders with i
 Interestingly, the product also includes the Magic Mirror and Streaming Camera. Here, the Magic Mirror is fixed inside the house for showing a few data about temperature and humidity of the room and some other information, while the Smart Camera around the gate can show the current situation or who the person beside the door is.
 
 Importantly, all devices including the Magic Mirror and Streaming Camera are connected to the Raspberry Pi, and they work interactively. We are using Python and JavaScript programming languages to make the product.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ArpWirYTLh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
