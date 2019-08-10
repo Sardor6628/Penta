@@ -1,20 +1,54 @@
-Team name: The Shield
+# Penta-Security-using-Raspberry-Pi
+Door lock and unlock system using Raspberry Pi 3 Model B. It gives a chance to lock or unlock the door using 5 ways. 
 
+## Main techniques
+      Mobile Application
+      Keypad System
+      Fingerprint System
+      Face Recognition System
+      Metallic Key
+      
+## Used tools
+      Python
+      Java Script
+      Java
+      OpenCV
+      Jason files
+      Modules
+      Raspberry Pi 3 Model B
+      Linux OS
+      Blyink Server
+      Raspberry Pi Camera
+      Jump Wires
 
+# Mobile Application
 
-Team members: Ali-20152777, Sardor-20152778, Kobil-20152779
+Mainly, we have used Blyink server in order to integrate our application. The coding part was done in Python and Linux System. The users can open or lock the doors easily. Here is output:
 
+![image](https://user-images.githubusercontent.com/52565814/60770703-06b09180-a119-11e9-83b4-9d42a91044d9.png)
 
-Project name: The Secured House(Penta)
+# Keypad System
 
-Our Penta product is the kind of security device that can hold several functions such as face recognition, fingerprint system, keypad system, mobile application and metallic key on it at a time, in terms of securing the door of the house or workplaces. This product enables host users to open the door conveniently with one of the above alternatives.
+In this part, the users can request for Raspberry Pi to send one time 4 digit password via their Mobile Appliation. Then, They can accept 4 random generated numbers via their App. Here is output:
 
-At the same time, it can also be a real problem to hack for the intruders with its complex features and characteristics. Because the users can also use a two-step verification method. With its multi-functionality and easy usability, it could get fast and big interests from the audience.
+![image](https://user-images.githubusercontent.com/52565814/60771353-cf92ae00-a121-11e9-931f-f848048faf2c.png)
 
-Interestingly, the product also includes the Magic Mirror and Streaming Camera. Here, the Magic Mirror is fixed inside the house for showing a few data about temperature and humidity of the room and some other information, while the Smart Camera around the gate can show the current situation or who the person beside the door is.
+# Fingerprint System
 
-Importantly, all devices including the Magic Mirror and Streaming Camera are connected to the Raspberry Pi, and they work interactively. We are using Python and JavaScript programming languages to make the product.
+It looks like a general fingerprint srategy. Host users should store their fingerprints to the database. Here is the outhput:
 
-Youtubr link with description: https://www.youtube.com/watch?v=ArpWirYTLh8&feature=youtu.be
+![image](https://user-images.githubusercontent.com/52565814/60771379-4f207d00-a122-11e9-84fc-cc1208b24d14.png)
 
-![](mock-ups/MagicMirrorMS.png)
+# Face recognition
+
+Its srategy is the same with the fingerprint system. OpenCV is used to integrate in this forum. Here you can see in case, the user is unkown (the Pi rejects to open the door):
+
+![image](https://user-images.githubusercontent.com/52565814/60771406-c2c28a00-a122-11e9-8e0a-316e0c3fd11b.png)
+
+and the user is known (the Pi opens the door):
+
+![image](https://user-images.githubusercontent.com/52565814/60771409-cb1ac500-a122-11e9-87cb-965bdb2da14b.png)
+
+# Metallic Key
+
+The last way to lock or unlock the door is with the metallic key as it is the vey usual way.
